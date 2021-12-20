@@ -462,7 +462,7 @@ button:focus {
     top: 0px;
     left: 0px;
     background:  #ccffcc;
-    background: linear-gradient(95deg, #b3ffb3 40%, #e6ffe6 100%);
+    background: linear-gradient(95deg, green 40%, #e6ffe6 100%);
     -webkit-transform: skewY(-12deg);
     transform: skewY(-12deg);
     -webkit-transform-origin: 0;
@@ -1547,4 +1547,8 @@ button:focus {
 .logo {
   width: 35%;
 
+}
+
+.btn {
+  background-color: rgb(45, 196, 45);
 }
